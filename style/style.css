@@ -42,6 +42,10 @@ html{
     padding-right: 64px;
 }
 
+.padding-top-bot-64{
+    padding: 64px 0px;
+}
+
 .colfourth{
     width: 25%;
     padding: 0 16px;
@@ -440,7 +444,7 @@ html{
 
   /*=============== univer ===============*/
 #univer {
-    padding: 64px 0px;
+    /* padding: 64px 0px; */
     height: 600px;
 }
 
@@ -449,8 +453,8 @@ html{
     position: relative;
 }
 
-.swiper-cover{
-    width: 268px !important;
+#univer .swiper-cover{
+    width: 270px !important;
     height: 250px !important;
     position: relative;
     overflow: hidden;
@@ -848,13 +852,13 @@ form .btn input[type="submit"]{
     padding-top: 24px;
 }
 
-#free .free-head{
+/* #free .free-head{
     margin: 0 auto 72px;
     padding: 0 60px;
-}
+} */
 
 .explore_back{
-    margin-top:72px;
+    margin-top:24px;
     text-align:center;
 }
 .css-2011y0{
@@ -875,6 +879,15 @@ form .btn input[type="submit"]{
     vertical-align:text-top;
     margin-left:8px;
 }
+
+.style-explore{
+    padding-left: 12px;
+}
+
+.style-explore:hover{
+    text-decoration: underline;
+}
+
 #free .article .article-img{
     max-width: 268px;
     max-height: 132px;
@@ -889,6 +902,34 @@ form .btn input[type="submit"]{
 }
 
 #free .swiper-cover{
+    width: 270px !important;
+    height: 386px !important;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+#certi .swiper{
+    height: 450px;
+    position: relative;
+}
+
+#certi .swiper-cover{
+    width: 270px !important;
+    height: 386px !important;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+#courses .swiper{
+    height: 450px;
+    position: relative;
+}
+
+#courses .swiper-cover{
     width: 270px !important;
     height: 386px !important;
     position: relative;
