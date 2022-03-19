@@ -295,7 +295,7 @@ html{
 }
 
 #join .join-button{
-    padding: 24px 36px;
+    padding: 16px 36px;
     background-color: #0056d2;
     color: #fff;
     border: none;
@@ -1604,7 +1604,7 @@ form .btn input[type="submit"]{
     width: 30%;
     height: 80px;
     margin-bottom: 20px;
-    margin-right: 20px;
+    margin-right: 34px;
     position: relative;
     display: inline-block;
 }
