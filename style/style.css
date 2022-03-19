@@ -76,6 +76,10 @@ html{
     align-items: center;
 }
 
+.shadow_5px{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
 /*========= header =========*/
 #header {
     display: block;
