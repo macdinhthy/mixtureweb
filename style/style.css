@@ -1128,6 +1128,7 @@ form .btn input[type="submit"]{
     width: 300px;
     position: relative;
     top: -30px;
+    left: 36px;
 }
 
 #outcome .outcome-left .pic1 img {
