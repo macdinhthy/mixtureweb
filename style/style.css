@@ -1262,3 +1262,386 @@ form .btn input[type="submit"]{
     font-size: 12px;
     margin-top: 32px;
 }
+
+/* professional certificates */
+#certi{
+    margin:auto;
+}
+
+#certi .certi-slide-form{
+    background-color: #382d8b;
+    transform: skew(0deg,-10deg);
+    -moz-transform: skew(0deg,-10deg);
+    -webkit-transform: skew(0deg,-10deg);
+    -o-transform: skew(0deg,-10deg);
+    -ms-transform: skew(0deg,-10deg);
+}
+
+#certi .certi-bottom{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    padding-left: 16px;
+    padding-bottom: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'OpenSans', Arial, sans-serif;
+    margin: 15px;
+}
+
+#certi .article {
+    text-decoration: none;
+    width: 270px;
+    height: 250px;
+}
+
+#certi .article-content{
+    width: 238px;
+    height: 44px;
+    padding-top: 12px;
+    padding-left: 24px;
+    color: #373A3C;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+#certi .certi-title{
+    color: white;
+    font-size: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-weight: 400;
+}
+
+#certi .article-img{
+    max-width: 268px;
+    max-height: 168px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#certi .certi-top{
+    padding: 0.75rem 1.5rem;
+    position: relative;
+    margin-top: 150px;
+    z-index: 1;
+}
+
+#certi .certi-card-logo {
+    background-color: white;
+    width: 72px;
+    height: 72px;
+    padding: 8px;
+    top: 96px;
+    left: 24px;
+    right: unset;
+}
+
+#certi .small_img{
+    position: absolute;
+}
+
+#certi .small_img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 72px;
+}
+
+#certi .right-shape{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    transform: skewY(-10deg);
+}
+#certi .certi-small-text{
+    color: white;
+    font-size: 1rem;
+}
+
+#certi .certi-hover:hover{
+    color: #0b005a;
+    text-decoration: underline;
+}
+/* professional certificates */
+
+/* explore mixture */
+#explore{
+    margin:auto;
+}
+
+#explore .exp-container{
+    width: 30%;
+
+}
+#explore .exp-card {
+    display: block;
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#explore .exp-container {
+    display: flex;
+    flex-direction: row;
+}
+  
+#explore  .exp-container > .exp-box {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+#explore .exp-img {
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#explore .exp-specialized{
+
+}
+
+#explore .exp-top{
+
+}
+
+#explore .exp-amount{
+
+}
+
+
+
+/* explore mixture */
+
+/* business */
+#business{
+    width: 100%;
+    background-color: #f9f7ef;
+    padding: 0;
+    overflow:hidden;
+}
+
+.bus-align{
+    width: 100%;
+    text-align: justify;
+}
+
+#business .bus_btn_text {
+    color: #0056d2;
+    box-shadow: inset 0 0 0 1px #0056d2;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    padding: 10px 20px;
+    margin-right: 15px;
+    background-color: transparent;
+}
+
+#business .cds-31 {
+    padding: 6px 16px;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+}
+#business .cds-31:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+#business .cds-32 {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.cds-button-label{
+    text-transform:none;
+}
+
+@media screen and (max-width: 992px){
+    .Mix-bus {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+.Mix-bus {
+    color: #1f1f1f;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    max-width: 975px;
+    width: 100%;
+}
+
+#business .cds-60 {
+    border: 0;
+    border-radius: 5px;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    justify-content: center;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (max-width: 992px){
+    .bus-text {
+        margin: 0 auto;
+        max-width: 575px;
+        width: 100%;
+    }
+}
+
+.bus-text {
+    width: 50%;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    line-height: 44px;
+    color: #1f1f1f;
+    float: left;
+}
+
+.bus-text-btn {
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.cds-button-disableElevation::after{
+    content:'';
+    position:absolute;
+    top:-2px;
+    left:-2px;
+    right:-2px;
+    bottom:-2px;
+    border-radius:4px;
+    box-shadow:0 0 0 1px #6a52e9,0 0 0 2px #f3f8ff;
+}
+
+
+/* business logo */
+@media screen and (max-width: 992px){
+    .bus-logo {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        max-width: 486px;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.bus-logo {
+    width: 50%;
+    float:right;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 767px){
+    .bus-logo-title {
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 486px;
+        width: 100%;
+    }
+}
+.bus-logo-title {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px){
+    .bus-logo-Mix {
+        max-width: 486px;
+        width: 100%;
+    }
+}
+.bus-logo-Mix {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 0;
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.bus-logo-ins {
+    display: inline-flex;
+    margin-right: 0.5rem;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 824px){
+.bus-logo-hmm {
+    max-width: 95vw;
+}
+}
+.bus-logo-hmm {
+    position: relative;
+    width: 110px;
+    padding-bottom: 32.7273%;
+    height: 0px;
+}
+@media (max-width: 824px){
+.bus-logo-hmm {
+    max-width: 95vw;
+}}
+.bus-logo-hmm {
+    position: relative;
+    width: 110px;
+    padding-bottom: 32.72727272727273%;
+    height: 0px;
+}
+
+
+/* business */
