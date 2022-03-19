@@ -826,6 +826,8 @@ form .btn input[type="submit"]{
     width:100%;
 }
 
+/* ======= Free ======= */
+
 .free_100{
     color:#382d8b;
     font-size:1.25rem;
@@ -910,6 +912,134 @@ form .btn input[type="submit"]{
     margin: 0 4px;
 }
 
+#free .productCard-cardImage {
+    width: 100%;
+    height: 100%;
+    background-color: #82a8e1;
+    background-size: cover;
+    background-position: 50%;
+}
+
+#free .css-9egt4w .rc-CardSection{
+    padding:0.75rem 1.5rem;
+    background-color:#F5F5F5;
+    border-bottom:1px solid #E1E1E1;
+}
+
+
+
+#free .partnerLogoImage {
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: contain;
+    background-size: contain;
+    -webkit-background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#free .productCard-PartnerLogo {
+    width: 72px;
+    height: 72px;
+    padding: 8px;
+    top: 96px;
+    left: 24px;
+    right: unset;
+}
+
+#free .img_logo{
+    position: absolute;
+    border: 1px solid #E5E7E8;
+    border-radius: 3px;
+    z-index: 1;
+    background-color: white;
+}
+
+.css-8jdiig.rc-TagBadge span{
+    font-size:12px;
+    float:right;
+    font-weight:600;
+    font-family:"Source Sans Pro",Arial,sans-serif;
+    width:-webkit-fit-content;
+    width:-moz-fit-content;
+    width:fit-content;
+    -webkit-text-decoration:none;
+    text-decoration:none;
+    color:black;
+    background-color:#FFE057;
+    border-radius:10px;
+    padding: 0px 15px;
+    vertical-align:middle;
+    line-height: 21px;
+}
+
+.machine_free{
+    color:  #0062e4;
+    color: "unset";
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.content_card{
+    padding: 0.75rem 1.5rem;
+    position: relative;
+    margin-top: 48px;
+    z-index: 1;
+}
+
+.stanf_free{
+    color: #666;
+    letter-spacing: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-weight: 400;
+}
+
+#free .content_div{
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 4px;
+}
+
+#free .course_free{
+    -webkit-box-direction:normal;
+    -webkit-box-orient:horizontal;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    -webkit-justify-content:space-between;
+    justify-content:space-between;
+    -webkit-align-items:center;
+    align-items:center;
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-flex-direction:row;
+    -ms-flex-direction:row;
+    flex-direction:row;
+}
+
+#free .course_free{
+    color: #666;
+    text-transform: uppercase;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-weight: 700;
+}
+#free label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+/* ======= Certi ====== */
 #certi .swiper{
     height: 450px;
     position: relative;
@@ -975,9 +1105,7 @@ form .btn input[type="submit"]{
     margin-bottom: 32px;
 }
 /* outcome */
-#outcome {
-    
-}
+
 
 .goal-outcome-mixture {
     margin: 50px 0;
