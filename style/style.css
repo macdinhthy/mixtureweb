@@ -921,6 +921,10 @@ form .btn input[type="submit"]{
 #free .productCard-cardImage {
     width: 100%;
     height: 100%;
+    width:286px;
+    height:131px;
+    object-fit: cover;
+    object-position: 50% 50%;
     background-color: #82a8e1;
     background-size: cover;
     background-position: 50%;
