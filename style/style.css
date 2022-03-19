@@ -46,6 +46,10 @@ html{
     padding: 64px 0px;
 }
 
+.none-border{
+    border: none;
+}
+
 .colfourth{
     width: 25%;
     padding: 0 16px;
@@ -74,6 +78,10 @@ html{
 
 .cds-78 {
     align-items: center;
+}
+
+.shadow_5px{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 /*========= header =========*/
@@ -287,7 +295,7 @@ html{
 }
 
 #join .join-button{
-    padding: 24px 36px;
+    padding: 16px 36px;
     background-color: #0056d2;
     color: #fff;
     border: none;
@@ -826,6 +834,8 @@ form .btn input[type="submit"]{
     width:100%;
 }
 
+/* ======= Free ======= */
+
 .free_100{
     color:#382d8b;
     font-size:1.25rem;
@@ -908,8 +918,142 @@ form .btn input[type="submit"]{
     overflow: hidden;
     display: inline-block;
     margin: 0 4px;
+    padding: 0 12px;
+    line-height: 21px;
 }
 
+#free .productCard-cardImage {
+    width: 100%;
+    height: 100%;
+    width:286px;
+    height:131px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-color: #82a8e1;
+    background-size: cover;
+    background-position: 50%;
+}
+
+#free .css-9egt4w .rc-CardSection{
+    padding:0.75rem 1.5rem;
+    background-color:#F5F5F5;
+    border-bottom:1px solid #E1E1E1;
+}
+
+
+
+#free .partnerLogoImage {
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: contain;
+    background-size: contain;
+    -webkit-background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#free .productCard-PartnerLogo {
+    width: 72px;
+    height: 72px;
+    padding: 8px;
+    top: 96px;
+    left: 24px;
+    right: unset;
+}
+
+#free .img_logo{
+    position: absolute;
+    border: 1px solid #E5E7E8;
+    border-radius: 3px;
+    z-index: 1;
+    background-color: white;
+}
+
+.css-8jdiig.rc-TagBadge span{
+    font-size:12px;
+    float:right;
+    font-weight:600;
+    font-family:"Source Sans Pro",Arial,sans-serif;
+    width:-webkit-fit-content;
+    width:-moz-fit-content;
+    width:fit-content;
+    -webkit-text-decoration:none;
+    text-decoration:none;
+    color:black;
+    background-color:#FFE057;
+    border-radius:10px;
+    padding: 0px 15px;
+    vertical-align:middle;
+    line-height: 21px;
+}
+
+.machine_free{
+    color:  #0062e4;
+    color: "unset";
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.content_card{
+    padding: 0.75rem 1.5rem;
+    position: relative;
+    margin-top: 48px;
+    z-index: 1;
+}
+
+.stanf_free{
+    color: #666;
+    letter-spacing: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-weight: 400;
+}
+
+#free .content_div{
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 4px;
+}
+
+#free .course_free{
+    -webkit-box-direction:normal;
+    -webkit-box-orient:horizontal;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    -webkit-justify-content:space-between;
+    justify-content:space-between;
+    -webkit-align-items:center;
+    align-items:center;
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-flex-direction:row;
+    -ms-flex-direction:row;
+    flex-direction:row;
+}
+
+#free .course_free{
+    color: #666;
+    text-transform: uppercase;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-weight: 700;
+}
+#free label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+/* ======= Certi ====== */
 #certi .swiper{
     height: 450px;
     position: relative;
@@ -977,7 +1121,6 @@ form .btn input[type="submit"]{
 /* outcome */
 
 .goal-outcome-mixture {
-    margin: 50px 0;
     height: 570px;
     display: flex;
     justify-content: center;
@@ -997,6 +1140,7 @@ form .btn input[type="submit"]{
     width: 300px;
     position: relative;
     top: -30px;
+    left: 36px;
 }
 
 #outcome .outcome-left .pic1 img {
@@ -1080,6 +1224,7 @@ form .btn input[type="submit"]{
 
 /* footer */
 #footer {
+    margin-top: 50px;
     background-color: #f5f5f5;
     padding: 28px;
 }
@@ -1120,3 +1265,371 @@ form .btn input[type="submit"]{
     font-size: 12px;
     margin-top: 32px;
 }
+
+/* professional certificates */
+#certi{
+    margin:auto;
+}
+
+#certi .certi-slide-form{
+    background-color: #382d8b;
+    transform: skew(0deg,-10deg);
+    -moz-transform: skew(0deg,-10deg);
+    -webkit-transform: skew(0deg,-10deg);
+    -o-transform: skew(0deg,-10deg);
+    -ms-transform: skew(0deg,-10deg);
+}
+
+#certi .certi-bottom{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    padding-left: 16px;
+    padding-bottom: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'OpenSans', Arial, sans-serif;
+    margin: 15px;
+}
+
+#certi .article {
+    text-decoration: none;
+    width: 270px;
+    height: 250px;
+}
+
+#certi .article-content{
+    width: 238px;
+    height: 44px;
+    padding-top: 12px;
+    padding-left: 24px;
+    color: #373A3C;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+#certi .certi-title{
+    color: white;
+    font-size: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    font-weight: 400;
+}
+
+#certi .article-img{
+    max-width: 268px;
+    max-height: 168px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#certi .certi-top{
+    padding: 0.75rem 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+#certi .certi-card-logo {
+    background-color: white;
+    width: 72px;
+    height: 72px;
+    padding: 8px;
+    top: 96px;
+    left: 24px;
+    right: unset;
+}
+
+#certi .small_img{
+    position: absolute;
+}
+
+#certi .small_img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 72px;
+}
+
+#certi .right-shape{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    transform: skewY(-10deg);
+}
+#certi .certi-small-text{
+    color: white;
+    font-size: 1rem;
+}
+
+#certi .certi-hover:hover{
+    color: #0b005a;
+    text-decoration: underline;
+}
+/* professional certificates */
+
+/* business */
+#business{
+    width: 100%;
+    background-color: #f9f7ef;
+    padding: 0;
+    overflow:hidden;
+}
+
+.bus-align{
+    width: 100%;
+    text-align: justify;
+}
+
+#business .bus_btn_text {
+    color: #0056d2;
+    box-shadow: inset 0 0 0 1px #0056d2;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    padding: 10px 20px;
+    margin-right: 15px;
+    background-color: transparent;
+}
+
+#business .cds-31 {
+    padding: 6px 16px;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+}
+#business .cds-31:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+#business .cds-32 {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.cds-button-label{
+    text-transform:none;
+}
+
+@media screen and (max-width: 992px){
+    .Mix-bus {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+.Mix-bus {
+    color: #1f1f1f;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    max-width: 975px;
+    width: 100%;
+}
+
+#business .cds-60 {
+    border: 0;
+    border-radius: 5px;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    justify-content: center;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (max-width: 992px){
+    .bus-text {
+        margin: 0 auto;
+        max-width: 575px;
+        width: 100%;
+    }
+}
+
+.bus-text {
+    width: 50%;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    line-height: 44px;
+    color: #1f1f1f;
+    float: left;
+}
+
+.bus-text-btn {
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.cds-button-disableElevation::after{
+    content:'';
+    position:absolute;
+    top:-2px;
+    left:-2px;
+    right:-2px;
+    bottom:-2px;
+    border-radius:4px;
+    box-shadow:0 0 0 1px #6a52e9,0 0 0 2px #f3f8ff;
+}
+
+
+/* business logo */
+@media screen and (max-width: 992px){
+    .bus-logo {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        max-width: 486px;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.bus-logo {
+    width: 50%;
+    float:right;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 767px){
+    .bus-logo-title {
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 486px;
+        width: 100%;
+    }
+}
+.bus-logo-title {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px){
+    .bus-logo-Mix {
+        max-width: 486px;
+        width: 100%;
+    }
+}
+.bus-logo-Mix {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 0;
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.bus-logo-ins {
+    display: inline-flex;
+    margin-right: 0.5rem;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 824px){
+.bus-logo-hmm {
+    max-width: 95vw;
+}
+}
+.bus-logo-hmm {
+    position: relative;
+    width: 110px;
+    padding-bottom: 32.7273%;
+    height: 0px;
+}
+@media (max-width: 824px){
+.bus-logo-hmm {
+    max-width: 95vw;
+}}
+.bus-logo-hmm {
+    position: relative;
+    width: 110px;
+    padding-bottom: 32.72727272727273%;
+    height: 0px;
+}
+/* business */
+
+/* explore */
+#explore {
+    margin: 64px 0px 120px;
+}
+
+#explore .explore-content{
+    width: 100%;
+    max-height: 400px;
+    padding-top: 16px;
+}
+
+#explore .explore-element{
+    width: 30%;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-right: 34px;
+    position: relative;
+    display: inline-block;
+}
+
+#explore .explore-element:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#explore .explore-element img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+}
+
+#explore .explore-element-name{
+    position: absolute;
+    left: 90px;
+    top: 24px;
+    font-size: 14px;
+    color: #1F1F1F;
+    font-weight: bold;
+}
+
+#explore .explore-element-amount{
+    color: #636363;
+}
+/* explore */
