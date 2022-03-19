@@ -975,9 +975,6 @@ form .btn input[type="submit"]{
     margin-bottom: 32px;
 }
 /* outcome */
-#outcome {
-    
-}
 
 .goal-outcome-mixture {
     margin: 50px 0;
@@ -1084,7 +1081,7 @@ form .btn input[type="submit"]{
 /* footer */
 #footer {
     background-color: #f5f5f5;
-    padding: 32px;
+    padding: 28px;
 }
 
 #footer .footer-container {
@@ -1113,9 +1110,9 @@ form .btn input[type="submit"]{
     font-family: 'Source Sans Pro', sans-serif;
     display: inline-block;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 16px;
     color: #1F1F1F;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 #footer .footer-content {
