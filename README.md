@@ -1,1 +1,1 @@
-# mixtureclone.github.io
+# mixture.github.io
